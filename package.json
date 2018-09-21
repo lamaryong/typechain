@@ -5,8 +5,8 @@
   "license": "MIT",
   "repository": "https://github.com/lamaryong/typechain",
   "author": "lamaryong",
-  "dependencies": {
-    "global": "^4.3.2",
-    "typescript": "^3.0.3"
+    "scripts": {
+    "start": "node index.js", 
+    "prestart": "tsc"
   }
 }
